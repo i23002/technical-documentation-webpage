@@ -1,0 +1,98 @@
+.mapping{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    border-right: solid;
+    width: 300px;
+    min-width: 290px;
+    height: 100%;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+
+#navbar a {
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #4d4e53;
+    font-size: 1.5vw;
+    border-bottom: solid;
+
+}
+#main-doc{
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+.main-section{
+    margin-bottom: 3.5rem;
+    font-size: 0.95em;
+}
+header{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.code-elements{
+   
+    background-color: #b4b5ba;
+}
+code{
+    display: block;
+    margin-left: -10px;
+    min-width: 235px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 45px;
+}
+footer{
+    display: block;
+    background-color: #b4b5ba;
+    padding: 10px 10px 10px 10px;
+}
+#top{
+    display: flex;
+    flex-direction: row;
+}
+.space{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -10px;
+}
+@media only screen and (max-width:815px){
+   body{
+    display: flex;
+   }
+    .mapping{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+   
+    #main-doc{
+        position: relative;
+        margin-left: 0px;
+        margin-top: 10px;
+        
+    }
+    #Introduction{
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #main-doc {
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+  
+    code {
+      margin-left: -20px;
+      width: 100%;
+      padding: 15px;
+      padding-left: 10px;
+      padding-right: 45px;
+      min-width: 233px;
+    }
+  }
