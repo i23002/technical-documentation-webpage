@@ -91,8 +91,8 @@ footer{
       margin-left: -25px;
       width: 100%;
       padding: 15px;
-      padding-left: 100px;
-      padding-right: 100px;
+      padding-left: auto;
+      padding-right: auto;
       min-width: 273px;
     }
   }
