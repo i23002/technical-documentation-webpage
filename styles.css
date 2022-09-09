@@ -79,6 +79,14 @@ footer{
     #Introduction{
         margin-top: 50px;
     }
+    code {
+        margin-left: -25px;
+        width: 100%;
+        padding: 15px;
+        padding-left: 15px;
+        padding-right: 5px;
+        min-width: 273px;
+      }
 }
 @media only screen and (max-width: 400px) {
     #main-doc {
